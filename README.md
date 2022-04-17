@@ -6,9 +6,8 @@
 #include <ctime>
 
 void PrintIntroduction(int Difficulty)
-
+// välkomstmeddelande som visas på terminalen
 {
- // välkomstmeddelande som visas på terminalen
     std::cout << "\n\nYou come by an old witches hut. Before you knock on the door a hissing voice says:\n";
     std::cout << "For your " << Difficulty;
     std::cout << " task find me this code, or your stay is no more...\n\n";
